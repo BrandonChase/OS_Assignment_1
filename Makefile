@@ -4,7 +4,7 @@ LDFLAGS=
 INCLUDE= 
 
 SRCDIR= ./src
-BINDIR= ./bin
+BINDIR= .
 TARGET= $(BINDIR)/ts
 
 SOURCE= $(wildcard $(SRCDIR)/*.cpp)
